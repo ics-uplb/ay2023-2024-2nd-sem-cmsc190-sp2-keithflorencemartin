@@ -1,8 +1,6 @@
-# My Special Problem: An example of CMSC 190 GitHub Repository
-Authors: Juan D. Cruz and Adviser' S. Name
+CaveIS: A Culture Collection Information System for Cave Microorganisms in CALABARZON, Philippines
+Authors: Keith Florence C. Martin and Mylah Rystie U. Anacleto
 
-This is the abstract of my special problem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue, diam molestie pellentesque feugiat, lorem libero vehicula lorem, eget accumsan magna mi non sem. Aliquam erat volutpat. Aliquam scelerisque sagittis mi sed consequat. Ut vestibulum ullamcorper fermentum. Vivamus eu efficitur nunc, quis tempus libero. Aliquam condimentum posuere sem, vitae auctor purus tempus quis. Aenean laoreet nulla pretium mauris faucibus gravida. Nunc interdum, tortor at tempus egestas, velit eros bibendum dui, a malesuada mi lectus ut ante. Praesent ac turpis gravida, tincidunt tellus vitae, volutpat tortor.
+CaveIS is a web application designed to manage culture collections of cave microorganisms in CALABARZON. It facilitates isolate management and employs a role-based access control mechanism to tailor operations for different user levels. Additionally, it features a Taxonomic Tree Viewer that allows users to explore taxonomic relationships and search for accessible isolates. To assess the usability of CaveIS, a System Usability Scale (SUS) questionnaire was administered to 8 respondents, including BS Biology students from the University of the Philippines Los Banos (UPLB) and members of the NICER Program: ˜ Center for Assessment of Cave Natural Resources (CAVE) in CALABARZON, affiliated with the Microbial Culture Collection, Museum of Natural History, UPLB. The results yielded an average SUS score of 83.75, indicating a well-designed system that provides a positive user experience.
 
-Keywords: template, submission, repository, example
-
-Read [How To Document](HOWTO.md) for more details.
+Keywords: cave microorganisms, isolates, culture collection, web application
