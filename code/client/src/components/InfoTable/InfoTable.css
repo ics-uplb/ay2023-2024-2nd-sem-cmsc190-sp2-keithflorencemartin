@@ -1,0 +1,105 @@
+.info-table {
+  border: solid 2px #E7E7E7;
+  border-radius: 10px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.info-table-add-btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info-table-add-btn {
+  border-color: #595f55;
+  margin-left: auto;
+}
+
+.info-table .ant-table-tbody{
+  padding: 0 !important;
+}
+
+.info-table .ant-table-thead .ant-table-cell {
+  background-color: #595f55 !important;
+  color: white;
+}
+
+.info-table .ant-table-thead .ant-table-cell:not(:last-child),
+.info-table .ant-table-tbody > tr > td:not(:last-child) {
+  padding-left: 25px !important;
+}
+
+.info-table .ant-table-thead .ant-table-cell:last-child,
+.info-table .ant-table-tbody > tr > td:last-child {
+  padding-right: 25px !important;
+}
+
+.info-table-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-table-location-wrapper,
+.info-table-institution-wrapper {
+  margin-left: -10px;
+}
+
+.info-table-cave-wrapper {
+  margin-left: -25px;
+}
+
+.info-table-institution-wrapper,
+.info-table-collection-wrapper {
+  margin-left: -85px;
+}
+
+.info-table-organism-wrapper {
+  margin-left: -20px;
+}
+
+.info-table-form-item label {
+  font-family: "Raleway";
+  font-size: medium !important;
+}
+
+.info-table-top-divider {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.info-table-bottom-divider {
+  margin-top: 10px;
+}
+
+.info-table-form-textarea {
+  width: 250px;
+}
+
+.info-table-form-item.analysis-method Input,
+.info-table-form-item.collection Input,
+.info-table-form-item.institution Input {
+  width: 250px;
+}
+
+.info-table-form-item.cave Input {
+  width: 250px;
+}
+
+.info-table-form-cave-select {
+  width: 250px !important;
+}
+
+.ant-message {
+  margin-top: 60px;
+}
+
+.info-table-delete-details {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ADD MEDIA QUERIES TO MAKE FORM RESPONSIVE */

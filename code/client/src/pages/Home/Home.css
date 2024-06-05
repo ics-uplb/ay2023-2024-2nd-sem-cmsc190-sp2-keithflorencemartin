@@ -1,0 +1,318 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  position: relative;
+  background-color: #F7F7F7;
+}
+
+.content {
+  height: 95vh;
+}
+
+.top-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url('../../../public/images/homebackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: inline-start;
+  width: 100%;
+  height: 60%;
+  padding: 30px 0;
+}
+
+.top-row-title {
+  white-space: nowrap;
+  margin-top: -30px;
+}
+
+.title {
+  color: white;
+  display: inline-block;
+  font-family: "Philosopher";
+  font-size: calc(7vw + 10px);
+  margin: 0;
+}
+
+.title.cave,
+.home-statistics-title.cave {
+  font-weight: 400;
+}
+
+.title.is {
+  font-weight: 700;
+}
+
+.title-desc-container {
+  margin-top: -4px;
+  text-align: center;
+}
+
+.title-desc {
+  color: white;
+  font-family: "News Cycle";
+  font-size: calc(2vw + 10px);
+  letter-spacing: .07em;
+}
+
+.title-desc.two {
+  margin-top: -1%;
+}
+
+.search-bar {
+  margin-top: 20px;
+}
+
+.search-bar .ant-input-affix-wrapper {
+  height: 50px;
+  width: 400px;
+  margin: 0;
+  background-color: #F7F7F7 !important;
+  font-size: 17px;
+}
+
+.search-bar .ant-btn {
+  margin-left: -75px;
+  height: 50px;
+  width: 56px;
+  border-top-right-radius: 30px !important;
+  border-bottom-right-radius: 30px !important;
+  background-color: #F7F7F7 !important;
+}
+
+.search-bar .ant-select-selector {
+  height: 50px !important;
+  border-top-left-radius: 30px !important;
+  border-bottom-left-radius: 30px !important;
+  padding: 10px !important;
+  background-color: #F7F7F7 !important;
+  font-size: 17px;
+}
+
+.search-bar .ant-select-selection-item {
+  padding-left: 10px !important;
+  text-align: center;
+}
+
+.search-bar .ant-select-arrow {
+  margin-top: 3px;
+}
+
+.search-bar .ant-input {
+  font-family: "Raleway";
+}
+
+.select-dropdown {
+  width: 240px;
+}
+
+.search-bar {
+  margin-right: -10px;
+}
+
+.ant-select-item:hover {
+  color: #58703D;
+}
+
+.bottom-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: inline-start;
+  clear: none;  
+  background-color: #F7F7F7;
+  width: 100%;
+  /* padding: 25px 0; */
+  height: 35%;
+  /* height: 100px; */
+}
+
+.bottom-row-elements {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.bottom-row-left {
+  font-family: "Raleway";
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: manual;
+  width: 31vw;
+  text-align: justify;
+  transform: translatey(5%);
+  margin: -1.5% -5% 0 0;
+  font-size: calc(1.4vw - 3px);
+}
+
+.bottom-row-divider {
+  border-left: 1px solid #58703D;
+  height: 110%;
+}
+
+.bottom-row-mid {
+  text-align: start;
+  margin-left: -6%;
+}
+
+.bottom-row-right {
+  margin-right: 10px;
+  text-align: start;
+}
+
+.ant-input-affix-wrapper:hover {
+  border: 1px solid #58703D;
+}
+
+.ant-input-affix-wrapper:focus {
+  border: 1px solid #58703D;
+}
+
+.bottom-row-mid .ant-statistic-title,
+.bottom-row-right .ant-statistic-title {
+  font-family: "Raleway";
+  margin-bottom: 0;
+}
+
+.bottom-row-mid .ant-statistic-content-value-int,
+.bottom-row-right .ant-statistic-content-value-int {
+  font-family: "News Cycle";
+}
+
+.home-search-options {
+  font-size: 15px;
+}
+
+.home-search-options-tooltip {
+  margin-right: 10px;
+  color: #818080 !important;
+}
+
+.ant-select-selector .info-circle-icon {
+  display: none !important;
+}
+
+.info-circle-icon.statistic {
+  margin-left: 10px;
+}
+
+.home-graphs-divider {
+  margin: 0;
+}
+
+.home-all-graphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-graphs {
+  background-color: #e1ebd6;
+  padding: 50px 100px 70px;
+}
+
+.home-graphs-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 50px;
+  width: 100%;
+  height: 600px;
+}
+
+.home-graphs-card {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-graphs-organism-sample {
+  margin-left: 20px;
+  padding: 0;
+  width: 100%;
+}
+
+.home-graphs-card.organism {
+  margin-bottom: 29px;
+}
+
+.home-statistics-header {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.home-statistics-title {
+  font-weight: 400;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.home-statistics-title .cave,
+.home-statistics-title .is {
+  font-family: "Philosopher";
+  margin: 0px;
+}
+
+.home-statistics-title .cave,
+.home-statistics-title .is {
+  display: inline;
+}
+
+.home-statistics-desc {
+  line-height: 1.5;
+}
+
+.home-graphs-container-cave {
+  margin-top: -15px;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .search-bar {
+    margin-right: -20px;
+  }
+
+  .search-bar .ant-input-affix-wrapper {
+    width: 250px;
+    font-size: 11px;
+  }
+
+  .search-bar .ant-btn {
+    margin-left: -90px;
+    width: 35px;
+  }
+
+  .search-bar .ant-select-selector {
+    font-size: 13px;
+    padding: 6px !important;
+  }
+
+  .select-dropdown {
+    width: 200px;
+  }
+
+  .home-search-options {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 847px) {
+  .title {
+    font-size: calc(14vw + 5px);
+  }
+
+  .bottom-row-left {
+    font-size: calc(1vw + 5px);
+  }
+}

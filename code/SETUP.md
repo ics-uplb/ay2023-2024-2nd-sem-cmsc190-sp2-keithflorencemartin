@@ -1,19 +1,22 @@
 # Development Set-up
+
 ## Prerequisites
-* interpreter
-* package manager 1
-* test files (file1, file2)
-* Android phone
-* IDE used, etc
+
+- Laptop
+- Visual Studio Code
+
 ## Instructions
-1. Install `interpeter` from link
-2. Run the following command to install other packages:
+
+1. From the server folder, run:
+
 ```
-interpreter install package_manager
-package_manager -i packages
+npm install
+nodemon index.js
 ```
-3. Run the following command to use the program:
+
+2. From the client folder, run:
+
 ```
-myprogram file1 file2
+npm install
+npm start
 ```
-4. A binary file can also be downloaded from this link which can be used by any device.

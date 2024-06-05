@@ -1,0 +1,418 @@
+.navbar {
+  border-bottom: solid 1px #e8e8e8;
+  background-color: transparent;
+  box-shadow: 0 3px 6px -2px rgba(0, 0, 0, 0.12),
+    0 6px 16px -11px rgba(0, 0, 0, 0.08);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99990;
+  position: sticky;
+}
+
+.layout-header {
+  height: 55px;
+  background-color: #F7F7F7;
+  display: flex;
+  border-bottom: 0;
+}
+
+.navbar-logo {
+  width: 105px;
+  height: auto;
+  margin-top: -8px;
+  margin-right: 60px;
+  margin-left: -15px;
+}
+
+.navbar-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.navbar-logo span {
+  display: inline-block;
+}
+
+.lm-left-menu span {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.lm-left-menu {
+  margin-right: 0;
+  margin-top: -5px;
+}
+
+.lm-left-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lm-left-ul li {
+  margin-right: 50px;
+  padding-bottom: 20px;
+  font-size: medium;
+  font-family: "Raleway";
+}
+
+.lm-left-ul.horizontal li {
+  display: inline-block;
+  margin-right: 50px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.lm-left-ul.horizontal li span:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #A2B68C;  
+  transform: scaleX(0);  
+  transition: transform 500ms ease-in-out;
+  margin-top: -7px;
+}
+
+.lm-left-ul li span:hover,
+.lm-left-ul.horizontal li span:hover,
+.lm-left-ul.horizontal li span.active {
+  color: #58703D;
+}
+
+.lm-left-ul.horizontal li span:hover::after,
+.lm-left-ul.horizontal li span.active::after {
+  border-bottom-color: #A2B68C;
+  transform: scaleX(1);
+}
+
+.rm-signin-text.horizontal {
+  margin-left: auto;
+  font-weight: bold;
+  margin-top: -5px;
+  margin-right: -15px;
+  cursor: pointer;
+}
+
+.navbar-menu-btn {
+  display: none;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: -30px;
+}
+
+.navbar-divider {
+  margin-top: 9px;
+}
+
+/* RightMenu Horizontal */
+
+.rm-h-btn {
+  margin-top: -10px;
+  margin-right: -15px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.rm-h-dropdown {
+  margin-left: auto;
+  position: relative;
+  display: inline-block;
+}
+
+.rm-h-profile, .rm-h-user-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rm-h-profile {
+  padding: 5px 30px 0 30px;
+}
+
+.rm-h-user-details {
+  margin-bottom: 10px;
+}
+
+.rm-h-avatar {
+  border-radius: 50%;
+  border: 2px solid #000000;
+}
+
+.rm-h-role {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  font-family: "Raleway";
+  letter-spacing: 1px;
+  margin-bottom: -10px;
+}
+
+.rm-h-name {
+  font-size: large;
+  font-weight: 800;
+  margin-bottom: -20px;
+  font-family: "Raleway";
+}
+
+.rm-h-email {
+  font-size: large;
+  line-height: 1.5;
+  text-align: center;
+  color: #818080;
+  font-family: "Raleway";
+}
+
+.rm-h-dropdown-content {
+  margin-right: -15px;
+  display: none;
+  position: absolute;
+  background-color: #fefefe;
+  border-radius: 10px;
+  min-width: 290px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.rm-h-dropdown-content a {
+  color: black;
+  padding: 0px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.rm-h-dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.rm-h-dropdown-content.show {
+  display: block;
+  background: linear-gradient(to bottom, #A2B68C 0%, #A2B68C 90px, #ffffff 45px, #ffffff 100%);
+  text-align: center;
+}
+
+.rm-h-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 32px;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.rm-h-manage {
+  width: 100%;
+  margin: -10px 0 -5px;
+}
+
+.rm-h-manage-btn {
+  width: 100%;
+}
+
+.rm-h-manage-btn.active,
+.rm-h-settings-btn.active {
+  background-color: #E7E7E7 !important;
+}
+
+.rm-h-manage-btn.active:hover,
+.rm-h-settings-btn.active:hover {
+  color: #000000 !important;
+  border: transparent !important;
+}
+
+.rm-h-settings {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.rm-h-options Button:hover {
+  border-color: #58703D !important;
+  color: #58703D !important;
+}
+
+.sign-in-btn:hover {
+  background-color: #58703D !important;
+}
+
+.sign-in-btn .ant-btn:hover {
+  color: #58703D !important;
+  border-color: #58703D !important;
+}
+
+/* RightMenu Inline */
+
+.rm-i-title {
+  display: flex;
+}
+
+.rm-i-avatar {
+  margin-left: 0;
+}
+
+.rm-i-username {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.rm-i-username span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  margin-bottom: -9px;
+  margin-top: -11px;
+  color: white;
+  font-weight: 600;
+}
+
+.rm-signin-text.inline {
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.rm-i-title span{
+  color: black !important;
+}
+
+/* RightMenu Inline, Submenu Styles */
+
+.ant-menu-submenu-title {
+  padding: 3px 0 0 10px !important;
+  margin: 0 !important;
+  margin-bottom: 10px !important;
+  color: black !important;
+  height: 50px !important;
+  /* background-color: #649435; */
+  background-color: #E7E7E7;
+}
+
+.ant-menu-submenu-title:hover {
+  background-color: #A1BA84 !important;
+}
+
+.ant-menu-item{
+  margin-left: -3px !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #A2B68C !important;
+  /* color: white !important; */
+  color: black !important;
+}
+
+/* Sign In Modal Styles */
+
+.sign-in-logo {
+  margin-top: 20px;
+  width: 50px;
+}
+
+.sign-in-modal-container {
+  width: 400px !important;
+}
+
+.sign-in-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.google-sign-in-btn {
+  background: #1890FF !important;
+  align-items: center;
+  width: 70%;
+  font-family: "News Cycle";
+  font-size: medium;
+  letter-spacing: 2px;
+}
+
+.google-btn-prefix {
+  width: 20px;
+  height: auto;
+  margin: -2px 10px 0 0;
+}
+
+.modal-or {
+  font-family: "News Cycle";
+  font-size: large;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.password-field {
+  margin-bottom: 12px;
+}
+
+.sign-in-btn {
+  margin-top: 15px;
+  width: 100%;
+  background-color: #58703D;
+  font-family: "News Cycle";
+  font-size: large;
+  letter-spacing: 2px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in-btn:hover {
+  background-color: #A1BA84 !important;
+}
+
+.sign-in-modal-title {
+  font-family: "News Cycle";
+  font-size: 30px;
+  padding: 15px;
+}
+
+.sign-in-error {
+  display: flex;
+  justify-content: center;
+  color: #ff4d4f;
+}
+.ant-form-item {
+  font-family: "Raleway" !important;
+}
+
+/* Apply following media query styles to NavBar when screen width is less than or equal to 847px */
+@media (max-width: 847px) {
+  .lm-left-ul.horizontal {
+    display: none;
+  }
+
+  .navbar-signin-text {
+    display: none;
+  }
+
+  .rm-signin-text.horizontal {
+    display: none;
+  }
+
+  .rm-h-dropdown {
+    display: none;
+  }
+
+  .navbar-menu-btn {
+    display: block;
+  }
+
+  .username {
+    display: block;
+  }
+}

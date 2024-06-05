@@ -1,0 +1,103 @@
+.manage-metadata-wrapper {
+  padding: 30px 60px;
+  background-color: #F7F7F7;
+  min-height: 100vh;
+}
+
+.manage-metadata-sider {
+  /* background-color: #f7f7f7 !important; */
+  background-color: #e1ebd6 !important;
+  border-right: 1px solid #e7e7e7;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
+}
+
+.manage-metadata-sider span {
+  font-size: large;
+}
+
+.manage-metadata-sider-title {
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 30px;
+}
+
+.manage-metadata-sider-title span {
+  font-size: xx-large;
+  font-family: "News Cycle";
+  font-weight: medium;
+}
+
+.manage-metadata-sider-content {
+  padding-left: 35px;
+  margin-left: 20px;
+}
+
+.manage-metadata-sider-content .ant-anchor-link-title {
+  font-family: "Raleway";
+  font-size: medium;
+}
+
+.manage-metadata-sider-content .ant-anchor-link-title:hover {
+  color: #58703D;
+}
+
+.manage-metadata-sider-content .ant-anchor-link-active .ant-anchor-link-title {
+  font-weight: bold;
+  color: #58703D !important;
+}
+
+.manage-metadata-layout-content {
+  /* background-color: #e1ebd6; */
+  background-color: #F8F8F8;
+}
+
+.manage-metadata-page-header {
+  font-size: medium;
+  margin: 24px 24px -40px;
+}
+
+.section {
+  padding: 10px 24px 0;
+}
+
+.section-table {
+  margin-top: 70px;
+}
+
+.section-table h1 {
+  font-family: "News Cycle";
+  margin-bottom: -30px;
+}
+
+.manage-metadata-layout-content .ant-divider {
+  border: 1px solid #F5F5F5;
+}
+
+.manage-metadata-divider {
+  margin-top: 30px;
+  margin-bottom: -70px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.manage-metadata-table-group {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 20px;
+}
+
+.section:last-child {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 992px) {
+  .manage-metadata-sider {
+    display: none;
+  }
+}

@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Philosopher';
+  src: local('Philosopher-Regular'), local('Philosopher-Regular'),
+    url('../public/fonts/Philosopher-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Philosopher';
+  src: local('Philosopher-Bold'), local('Philosopher-Bold'),
+    url('../public/fonts/Philosopher-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'News Cycle';
+  src: local('NewsCycle-Regular'), local('NewsCycle-Regular'),
+    url('../public/fonts/NewsCycle-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'News Cycle';
+  src: local('NewsCycle-Bold'), local('NewsCycle-Bold'),
+    url('../public/fonts/NewsCycle-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway-Regular'), local('Raleway-Regular'),
+    url('../public/fonts/Raleway-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway-Bold'), local('Raleway-Bold'),
+    url('../public/fonts/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway-ExtraBold'), local('Raleway-ExtraBold'),
+    url('../public/fonts/Raleway-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway-SemiBold'), local('Raleway-SemiBold'),
+    url('../public/fonts/Raleway-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ant-input, .ant-btn, span, ul, li {
+  font-family: "Raleway";
+}
+
+.ant-input-prefix {
+  padding: 0 10px 0 5px;
+}
+
+.ant-table-column-sorter-inner {
+  color: white !important;
+}
+
+.modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-title {
+  font-family: "News Cycle";
+  font-weight: bold;
+  font-size: x-large !important;
+  text-align: center;
+}
+
+.modal-desc {
+  text-align: center;
+}
+
+.modal-desc span {
+  display: inline-block;
+  font-size: medium;
+}
+
+.modal-top-divider {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.primary-btn:hover {
+  background-color: #A2B68C !important;
+  border-color: transparent !important;
+  color: white !important;
+}

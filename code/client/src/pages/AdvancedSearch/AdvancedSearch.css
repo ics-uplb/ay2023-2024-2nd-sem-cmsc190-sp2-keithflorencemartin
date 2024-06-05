@@ -1,0 +1,257 @@
+.advsearch-page {
+  padding: 30px 60px;
+  background-color: #E7E7E7;
+  min-height: 100vh;
+}
+
+.advsearch-filter-content {
+  margin-top: -10px;
+}
+
+.advsearch-filter-container {
+  margin-right: 20px;
+}
+
+.advsearch-right-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.advsearch-right-container-card  {
+  background-color: white !important;
+  margin-bottom: 10px;
+  height: 45px !important;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.advsearch-filter-card {
+  width: 415px;
+}
+
+.advsearch-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.isolates-table {
+  border: solid 1px #58703D;
+  border-radius: 10px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.isolates-table .ant-table-thead .ant-table-cell {
+  background-color: #1E3A02 !important;
+  color: white;
+  font-family: "Raleway";
+}
+
+.isolates-table .ant-table-thead .ant-table-cell .ant-checkbox-inner::after {
+  margin-left: 5px;
+}
+
+.isolates-table-record {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.advsearch-table-row-name {
+  display: flex;
+  flex-direction: row;
+  font-size: medium;
+}
+
+.advsearch-table-row-name:hover {
+  color: #A2B68C;
+}
+
+.advsearch-table-row-arrow {
+  margin: 0 0 1px 7px;
+  font-size: 10px;
+}
+
+.isolates-table-info,
+.isolates-table-types,
+.advsearch-table-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.isolates-table-types {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.advsearch-filter-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advsearch-filter-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.advsearch-filter-clear {
+  color: #595959;
+  cursor: pointer;
+}
+
+.advsearch-filter-collapse {
+  margin-top: 10px;
+  width: 350px;
+}
+
+.advsearch-filter-panel .ant-collapse-header {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.advsearch-filter-options {
+  font-size: medium;
+  font-weight: normal !important;
+  margin-bottom: 3px;
+}
+
+.advsearch-filter-apply {
+  margin-top: 20px;
+  background-color: #58703D;
+  color: white;
+  width: 100%;
+}
+
+.advsearch-filter-apply:hover {
+  background-color: #A2B68C !important;
+  border-color: transparent !important;
+  color: white !important
+}
+
+.advsearch-search-container {
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.advsearch-search-container .ant-btn:not(.advsearch-add-btn):hover,
+.isolate-cancel-modal-btn:hover {
+  color: #58703D !important;
+  border-color: #58703D !important;
+}
+
+.advsearch-right-container .ant-select-selector:hover {
+  border-color: #58703D !important;
+}
+
+
+.advsearch-add-btn {
+  margin-right: 10px;
+  background-color: #58703D;
+  color: white;
+}
+
+.advsearch-add-btn:hover {
+  background-color: #A2B68C !important;
+  border-color: transparent !important;
+  color: white !important
+}
+
+.advsearch-search-bar {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.advsearch-search-bar .ant-input {
+  font-family: "Raleway";
+}
+
+.advsearch-access-tag {
+  text-align: center;
+  width: 80px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.isolates-table .ant-table-thead .ant-table-cell {
+  font-size: 17px;
+}
+
+.isolates-table .ant-checkbox-inner {
+  margin-left: 10px;
+}
+
+.isolates-table .ant-checkbox-inner::after {
+  margin-left: 7px;
+}
+
+.isolates-table .ant-table-thead .ant-table-cell .ant-checkbox-inner::after {
+  margin-left: 7px;
+}
+
+.isolates-table.all-selected .ant-table-thead .ant-table-cell .ant-checkbox-inner::after {
+  margin-left: 5px;
+}
+
+.isolates-table .ant-pagination {
+  margin-top: 30px;
+}
+
+.advsearch-table-row-name i {
+  cursor: pointer;
+}
+
+/* Create Isolate Modal Styles */
+.advsearch-form-main-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.advsearch-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+
+.isolates-table .ant-table-row .ant-table-cell {
+  border-right: 1px solid #f0f0f0;
+}
+
+.advsearch-form-rows {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 -10px;
+}
+
+@media (max-width: 987px) {
+  .advsearch-body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advsearch-filter-container {
+    margin-right: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .advsearch-filter-card {
+    width: 100%;
+  }
+
+  .advsearch-filter-collapse {
+    width: 100%;
+  }
+}

@@ -1,0 +1,35 @@
+.users-au-modal-title {
+  font-family: "News Cycle";
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.users-top-divider {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.users-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.users-au-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.users-au-role-select,
+.users-au-field Input {
+  width: 420px !important;
+}
+
+.users-au-names-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.users-au-fname {
+  margin-right: 20px;
+}

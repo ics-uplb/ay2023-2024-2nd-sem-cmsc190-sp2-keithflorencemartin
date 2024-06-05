@@ -1,0 +1,74 @@
+.taxonomic-tree-container {
+  height: 95vh;
+  background-color: #e1ebd6 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+/* .node__root > circle {
+  fill: #A2B68C;
+} */
+
+/* .node__branch > circle {
+  fill: #A2B68C;
+} */
+
+.node__leaf > circle {
+  fill: #A2B68C;
+}
+
+.taxonomic-tree-item {
+  background-color: #F7F7F7 !important;
+  border: solid 1px black !important;
+  width: 100%;
+  height: 100%;
+}
+
+.taxonomic-tree-card {
+  width: 30%;
+}
+
+.taxonomic-tree-title-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  width: 200px;
+  height: 95%;
+  justify-content: space-between;
+}
+
+.taxonomic-tree-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.taxonomic-tree-title {
+  font-size: 40px;
+}
+
+.taxonomic-tree-title.caveis {
+  font-family: "Philosopher";
+  font-weight: bolder;
+}
+
+.taxonomic-tree-description {
+  margin-top: 20px;
+}
+
+.taxonomic-tree-guide {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+
+.taxonomic-tree-guide-title {
+  margin-bottom: 5px;
+}
+
+.taxonomic-tree-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
